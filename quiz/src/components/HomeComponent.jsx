@@ -7,7 +7,7 @@ export default class HomeComponent extends Component {
         return (
             <div className='background'>
                 <h1 className="title">Quiz App</h1>
-                <button className='button-style'><Link to='/QuizComponent' className='button-style'>Play Now</Link></button>
+                <button className='button-style'><Link to='/QuizComponent' className='react-link'>Play Now</Link></button>
             </div>
         )
     }

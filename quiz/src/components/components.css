@@ -8,8 +8,9 @@
     color:black;
 }
 
-#result-title{
+.result-title{
     color: green;
+    margin: 10px;
 }
 
 .background{
@@ -32,15 +33,19 @@
     margin: 15px;
     font-size: 30px;
     background-color: green;
-    color: white;
     border-radius: 20px;
+    color:white;
+}
+
+.react-link{
+    color: white;
     text-decoration: none;
 }
 
 .overlay{
-    margin: 20px;
     background-color: white;
-    padding: 45px;
+    padding: 25px;
+    margin: 15px;
 }
 
 .option-display{

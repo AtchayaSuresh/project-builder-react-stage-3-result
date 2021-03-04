@@ -24,11 +24,9 @@ function App() {
           <Route path="/QuizComponent">
             <QuizComponent/>
           </Route>
-          <Route path='/ResultComponent'>
-            <ResultComponent/>
+          <Route path="/ResultComponent" component={ResultComponent}>
           </Route>
         </Switch>
-        
       </Router>
     </div>
   );
